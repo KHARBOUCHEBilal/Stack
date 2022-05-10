@@ -46,6 +46,7 @@ void	Ex31(pile p1, pile* p2)
 }
 int	main(int argc, char* argv)
 {
+	system("clear");
 	pile	*c;
 	c = (pile *)	malloc(sizeof(pile));
 	writep(c);
