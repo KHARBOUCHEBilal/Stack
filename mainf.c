@@ -80,6 +80,7 @@ void	Tri(file f1, file* f2)
 }
 int     main(int argc, char* argv)
 {
+	system("clear");
         file    *a;
         a = (file *)    malloc(sizeof(file));
         writef(a);
